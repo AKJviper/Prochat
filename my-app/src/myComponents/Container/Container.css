@@ -1,0 +1,39 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    color: white;
+    height: 100vh;
+    /* justify-content: space-between; */
+    text-align: center;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+  }
+  .activeContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50%;
+  }
+  .call-button {
+    text-align: center;
+    margin-top: 0.5rem;
+    background: wheat;
+  }
+  .activeItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .activeContainer img {
+    padding-left: 10px;
+  }
+  
+  .textContainer h1 {
+    margin-bottom: 0px;
+  }
+  

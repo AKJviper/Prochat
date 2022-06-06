@@ -1,0 +1,78 @@
+.main{
+    border: 2px solid black;
+    background: black;
+}
+.richtext{
+    border: 2px solid rgb(236, 218, 218);
+    padding: 8px;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    background: #1e1d1d;
+}
+.inpbox{
+    background: black;
+}
+.uppericon{
+    margin-left: 22px;
+    display: flex;
+}
+.lowericon{
+    margin-left: 22px;
+    display: flex;
+}
+.vl {
+    border-left: 1px solid rgb(8, 8, 8);
+    height: 20px;
+    margin-right: 7px;
+  }
+.input {
+    background-color:transparent;
+    border: 0px solid;
+    height:30px;
+    width:260px;
+}
+.input:focus {
+    outline:none;
+}
+.icons{
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    margin-right: 10px;
+}
+.form {
+    display: flex;
+  }
+  
+  .input {
+    border: none;
+    border-radius: 0;
+    padding: 5%;
+    width: 80%;
+    font-size: 1.2em;
+  }
+  
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+  
+  .sendButton {
+    color: #fff !important;
+    background: #068539;
+    display: inline-block;
+    border: none;
+    width: 20%;
+    text-align: left;
+    height: 43px;
+    align-self: center;
+  }
+  .boldify{
+    font-weight: bold;
+  }
+  .italic{
+    font-style: italic;
+  }
+  .ql-container.ql-snow {
+    border: 0px;
+}
